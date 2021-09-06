@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8025D3A26E6BE7500CF2C9B /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8025D3926E6BE7500CF2C9B /* AppetizerListViewModel.swift */; };
 		A8220C6326E17C6400831FF2 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220C6226E17C6400831FF2 /* AppetizersApp.swift */; };
 		A8220C6526E17C6400831FF2 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220C6426E17C6400831FF2 /* AppetizerTabView.swift */; };
 		A8220C6726E17C6500831FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8220C6626E17C6500831FF2 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8025D3926E6BE7500CF2C9B /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		A8220C5F26E17C6400831FF2 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8220C6226E17C6400831FF2 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		A8220C6426E17C6400831FF2 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				A8220C6B26E17C6500831FF2 /* Info.plist */,
 				A8220C6826E17C6500831FF2 /* Preview Content */,
 				A8220C7126E17CD300831FF2 /* AppetizerListView.swift */,
+				A8025D3926E6BE7500CF2C9B /* AppetizerListViewModel.swift */,
 				A8C1C37526E2C72D0040C840 /* AppetizerListCell.swift */,
 				A8220C7326E17CDC00831FF2 /* AccountView.swift */,
 				A8220C7526E17CE200831FF2 /* OrderView.swift */,
@@ -162,6 +165,7 @@
 				A8C1C37426E2BF2C0040C840 /* Appetizer.swift in Sources */,
 				A8C1C37A26E2CF6D0040C840 /* APError.swift in Sources */,
 				A8C1C37626E2C72D0040C840 /* AppetizerListCell.swift in Sources */,
+				A8025D3A26E6BE7500CF2C9B /* AppetizerListViewModel.swift in Sources */,
 				A8220C7426E17CDC00831FF2 /* AccountView.swift in Sources */,
 				A8220C6526E17C6400831FF2 /* AppetizerTabView.swift in Sources */,
 				A8C1C37826E2CE250040C840 /* NetworkManager.swift in Sources */,
@@ -300,7 +304,7 @@
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Appetizers/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +326,7 @@
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Appetizers/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,7 +348,7 @@
 				A8220C6D26E17C6500831FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A8220C6E26E17C6500831FF2 /* Build configuration list for PBXNativeTarget "Appetizers" */ = {
 			isa = XCConfigurationList;
@@ -353,7 +357,7 @@
 				A8220C7026E17C6500831FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
