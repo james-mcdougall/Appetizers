@@ -2,41 +2,19 @@
 //  AppetizerListView.swift
 //  Appetizers
 //
-//  Created by James McDougall on 9/2/21.
+//  Created by James McDougall on 9/21/21.
 //
 
 import SwiftUI
 
 struct AppetizerListView: View {
-    
-    @StateObject var viewModel = AppetizerListViewModel()
-    
     var body: some View {
-        ZStack {
-            NavigationView {
-                List(viewModel.appetizers) { appetizer in
-                    AppetizerListCell(appetizer: appetizer)
-                }
+        NavigationView {
+            Text("Appetizer List View")
                 .navigationTitle("🍟 Appetizers")
-            }
-            .onAppear {
-                viewModel.getAppetizers()
-            }
-            
-            if viewModel.isLoading {
-                LoadingView()
-            }
-            
-        }
-        .alert(item: $viewModel.alertItem) { alertItem in
-            Alert(title: alertItem.title,
-                  message: alertItem.message,
-                  dismissButton: alertItem.dismissButton)
-            
         }
     }
 }
-
 
 struct AppetizerListView_Previews: PreviewProvider {
     static var previews: some View {

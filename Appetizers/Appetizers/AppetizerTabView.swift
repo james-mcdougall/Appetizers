@@ -1,8 +1,8 @@
 //
-//  AppetizerView.swift
+//  AppetizerTabView.swift
 //  Appetizers
 //
-//  Created by James McDougall on 9/2/21.
+//  Created by James McDougall on 9/21/21.
 //
 
 import SwiftUI
@@ -28,13 +28,12 @@ struct AppetizerTabView: View {
                     Text("Order")
                 }
         }
-        .accentColor(.brandPrimary)
+        .accentColor(Color("BrandPrimary"))
     }
-    
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            AppetizerTabView()
-        }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        AppetizerTabView()
     }
 }
